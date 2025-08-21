@@ -1,12 +1,36 @@
 # Project-Cosmo’S-
 
-**This project aims to create an offline AI tool that runs entirely on smartphones.**
+# Project Proto-AI (WIP)
 
-このプロジェクトは、**Androidスマートフォン（Pydroid3環境）上で完結する軽量AIツール**を開発するものです。  
-クラウドサービスや外部APIに依存せず、完全にローカルで動作することを前提に設計されています。
+## Overview
 
-コードはすべて**ゼロからの自作**であり、シンプルでポータブル、誰でも導入できる形を目指しています。  
-記号処理、局所的なパターン操作、テキスト生成補助など、基本的なAI動作の実装を進行中です。
+This repository contains initial sample scripts for a local AI project currently under development.  
+While the main engineering phase has not yet begun, the foundational logic and roadmap are already structured.
+
+## Developer Background
+
+- I am relatively new to engineering but have a solid foundation in logic design and task flow management from my previous professional experience.
+- The code currently uploaded here is sample-level, intended to serve as a reference and concept preview.
+
+## Current Status
+
+- The project is at the **build and detailed coding phase**, ready for full-scale development.
+- However, development is currently **on hold due to lack of funds and hardware**.
+- I had to part with my working device, but have continued drafting and modeling ideas manually during this downtime.
+
+## Funding Goals
+
+With proper financial support:
+- **Within 1 month**: I will begin building core components and setting up a full development environment.
+- **Within 3 months**: I expect to present a working prototype with basic UI and integrated core functionalities.
+- **Within 6 months**: A fully functional, modular, local-use AI package will be available, with potential to scale for general use.
+
+## Final Notes
+
+This is not a theory-level project — it’s being actively built.  
+With lightweight design in mind and a clear roadmap, this project aims to deliver a **smartphone-compatible, locally operable AI assistant** tailored for task execution and support.
+
+Feel free to contact me for more technical details, partnership inquiries, or funding support.
 
 ---
 
