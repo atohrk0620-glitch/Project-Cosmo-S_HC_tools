@@ -1,7 +1,8 @@
 # Project-Cosmo’S-
 
-**A lightweight AI framework designed to run directly on smartphones (Pydroid3).**  
-This project aims to construct a high-level transformer-alternative with full code ownership, optimized for symbolic understanding, pattern processing, and structural regeneration.
+This is a lightweight AI framework designed to run directly on smartphones (Pydroid3).  
+The goal is to build a simple, general-purpose AI tool that works locally without relying on external servers.  
+Everything is hand-written and fully owned, with a focus on practical usability and accessibility.
 
 ---
 
