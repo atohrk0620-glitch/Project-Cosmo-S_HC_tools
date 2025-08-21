@@ -1,5 +1,7 @@
 # Project-Cosmo’S-
 
+**This project aims to create an offline AI tool that runs entirely on smartphones.**
+
 このプロジェクトは、**Androidスマートフォン（Pydroid3環境）上で完結する軽量AIツール**を開発するものです。  
 クラウドサービスや外部APIに依存せず、完全にローカルで動作することを前提に設計されています。
 
