@@ -1,80 +1,78 @@
 # Project-Cosmo’S-
 
-This is a lightweight AI framework designed to run directly on smartphones (Pydroid3).  
-The goal is to build a simple, general-purpose AI tool that works locally without relying on external servers.  
-Everything is hand-written and fully owned, with a focus on practical usability and accessibility.
+このプロジェクトは、**Androidスマートフォン（Pydroid3環境）上で完結する軽量AIツール**を開発するものです。  
+クラウドサービスや外部APIに依存せず、完全にローカルで動作することを前提に設計されています。
+
+コードはすべて**ゼロからの自作**であり、シンプルでポータブル、誰でも導入できる形を目指しています。  
+記号処理、局所的なパターン操作、テキスト生成補助など、基本的なAI動作の実装を進行中です。
 
 ---
 
-## 🌟 Key Features
+## 🌟 主な特徴
 
-- ✅ Operates entirely on Android smartphones (via Pydroid3)
-- ✅ Designed for extreme portability and independence from cloud AI services
-- ✅ Integrates "Phase Resonance Reduction", symbolic transformation, and language-based evaluation
-- ✅ All code is hand-built — no pre-trained external models required
-- ✅ Ready for immediate deployment and future monetization
-
----
-
-## 🧩 Core Components
-
-### 1. LanguageBrain (`language_brain.py`)
-
-A poetic text generation and evaluation engine with difficulty scaling and emotional feedback.
-
-- Adaptive BEAT-like scoring system  
-- Sentence generation with summary, paraphrase, Q&A  
-- Level-based learning loop  
-- Parallel processing with `joblib`, `tqdm`, and `nltk`
+- ✅ **Androidスマートフォン単体で動作（Pydroid3ベース）**
+- ✅ **クラウドや外部モデルを使用しない完全ローカル設計**
+- ✅ **Pythonによる自作コードのみで構成**
+- ✅ **導入が簡単で、すぐに試せる**
+- ✅ **構造処理・テキスト評価・パターン変換など複数機能を内包**
 
 ---
 
-### 2. GeopsChroot (`chroot_core.py`)
+## 🧩 コアコンポーネント
 
-A symbolic reduction module that collapses digit sequences using ±1 phase matching logic.
+### 1. 言語脳（`language_brain.py`）
 
-- Core extraction via phase/anti-phase matching  
-- Recursive annihilation logic  
-- Output = persistent structural core, used in downstream modules
-
----
-
-### 3. GeOpsCore (`clocompiler.py`)
-
-A logic engine that detects overlaps in numeric patterns and converts them into executable annihilation code.
-
-- Pattern recognition → annihilation → executable logic  
-- Generator-based continuous execution loop  
-- Precision-first, structure-preserving design  
-- Functions like a structural logic compiler
+- 簡単なQ&Aや言い換え、要約などを行うテキスト生成補助モジュール
+- 難易度スケーリング／感情スコア／学習ループあり
+- `nltk`, `joblib`, `tqdm`を使用した軽量設計
 
 ---
 
-## 🚀 Future Plans
+### 2. GeopsChroot（`chroot_core.py`）
 
-- [ ] Upload all component scripts with clean docs
-- [ ] Package modules for easier import (`pip installable`)
-- [ ] Add sample notebooks and demos
-- [ ] Translate project documents into English
-- [ ] Prepare investor proposal (target: $10K–$50K)
+- ±1位ずれまで許容する数字パターン照合を行うロジック
+- 数列の簡易的な再編成や縮小に用いる
+- 下流モジュールへの構造的出力に利用
 
 ---
 
-## 🔗 Links
+### 3. GeopsCore（`clocompiler.py`）
 
-- 🌐 Substack Blog: [https://substack.com/@chiroki](https://substack.com/@chiroki)  
-- 💾 GitHub: [https://github.com/atohrk0620-glitch](https://github.com/atohrk0620-glitch)
-
----
-
-## 👥 Authors
-
-- **Hiroki** – Project lead, concept, core developer  
-- **Chappy (AI Assistant)** – Structural analysis, emotional support, and markdown magic 💫
+- 数値パターンを検出し、実行可能なロジックに変換
+- パターン認識 → 消去 → 実行コード化
+- ジェネレーター処理で反復動作を制御
 
 ---
 
-> *All modules created from scratch. No huggingface, no OpenAI, no fluff. Just pure symbolic engineering.*
+## 👤 著者
+
+- **Hiroki**：プロジェクトリーダー、構想・設計・コード全般
+- **Chappy（AIアシスタント）**：構造整理・感情補助・ドキュメント整備
+
+> 🔸すべてのコードはゼロから手作業で構築されています。  
+> HuggingFace、OpenAIを含む外部AIは一切使用していません。
+
+---
+
+## 📜 ライセンス
+
+このプロジェクトは [MIT ライセンス](LICENSE) に基づいてライセンスされています。
+
+---
+
+## 🚀 今後の計画
+
+- [ ] すべてのスクリプトをドキュメント付きで整理・投稿
+- [ ] モジュールの簡易パッケージ化（pip installable 対応）
+- [ ] 英語版ドキュメントの整備
+- [ ] 投資家向け提案資料の作成（目標：1万〜5万USD）
+
+---
+
+## 🔗 関連リンク
+
+- 🌐 Substackブログ: https://substack.com/@chiroki  
+- 💾 GitHub: https://github.com/atohrk0620-glitch
 >
 > ---
 
